@@ -10,7 +10,7 @@ import { LoadingContext } from '../../context/LoadingContext';
 
 function Weather() {
   const { inputValue } = useContext(LoadingContext);
-  const data = useFetch(inputValue?.trim());
+  const data = useFetch(inputValue);
 
   let temp = Cloud;
 
