@@ -10,9 +10,6 @@ function Search(){
             return alert("you must type City Name")
         }
         setLoading(!loading);
-        setTimeout(()=>{
-            setInputValue("")
-        },1000)
     }
     return(
         <form onSubmit={handelSubmit}>
