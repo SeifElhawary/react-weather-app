@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "Rubik", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url(/bgImg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+}
+
+.container {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  width: 100%;
+  max-width: 570px;
+  min-height: 350px;
+  border-radius: 15px;
+  box-shadow: inset 2px 2px 5px rgba(151, 147, 147, 0.5);
+  background-color: rgba(255, 255, 255, 0.268);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+}
+
+@media (max-width: 550px) {
+  .container {
+    padding: 15px;
+    border-radius: 12px;
+  }
+}
